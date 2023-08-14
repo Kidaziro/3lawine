@@ -12,19 +12,28 @@ width: 400px;
 
 
 .section-xbVUqFcHzLqn5alN .product-item, .section-xbVUqFcHzLqn5alN .product-item,
-.section-Iq21K5sUxqtWfcP5 .product-item, .section-Iq21K5sUxqtWfcP5 .product-item 
+.section-Iq21K5sUxqtWfcP5 .product-item, .section-Iq21K5sUxqtWfcP5 .product-item,
+.section-C2ch89CUfX67kHwT .product-item, .section-C2ch89CUfX67kHwT .product-item,
+.section-addAwG1ieIFGc7oF .product-item, .section-addAwG1ieIFGc7oF .product-item
 {
 border:none;
 transition: box-shadow .3s;
 border-radius: 0 0 20px 20px;
 border-color: #000;
 }
-.section-xbVUqFcHzLqn5alN .product-item  .product-details{
+.section-xbVUqFcHzLqn5alN .product-item  .product-details,
+.section-Iq21K5sUxqtWfcP5 .product-item  .product-details,
+.section-C2ch89CUfX67kHwT .product-item  .product-details,
+.section-addAwG1ieIFGc7oF .product-item  .product-details
+
+{
 border-color: #F2AB35;
 }
 
 .section-xbVUqFcHzLqn5alN .product-item:hover, .section-xbVUqFcHzLqn5alN .product-item:hover,
-.section-Iq21K5sUxqtWfcP5 .product-item:hover, .section-Iq21K5sUxqtWfcP5 .product-item:hover 
+.section-Iq21K5sUxqtWfcP5 .product-item:hover, .section-Iq21K5sUxqtWfcP5 .product-item:hover,
+.section-C2ch89CUfX67kHwT .product-item:hover, .section-C2ch89CUfX67kHwT .product-item:hover,
+.section-addAwG1ieIFGc7oF .product-item:hover, .section-addAwG1ieIFGc7oF .product-item:hover
 {
 box-shadow: 0 0 11px rgba(33,33,33,.2);   
 }
