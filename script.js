@@ -185,7 +185,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // After the DOM content has been loaded
   setTimeout(function () {
     preloader.style.display = "none"; // Hide the preloader after 400ms
-  }, 5000);
+  }, 2000);
 });
 
 document.addEventListener("DOMContentLoaded", function() {
