@@ -227,7 +227,7 @@ document.addEventListener("DOMContentLoaded", function() {
   var targetElement = document.querySelector(".heading-primary");
 
   // Check if the target element exists
-  if (targetElement) {
+  if (targetElement && targetElement.textContent.includes('عروض مميزة')) {
     // Insert the infoContainer element before the target element
     targetElement.parentNode.insertBefore(infoContainer, targetElement);
   }
