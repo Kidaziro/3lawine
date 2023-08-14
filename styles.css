@@ -9,7 +9,10 @@
 width: 400px;
 }
 
-.section-xbVUqFcHzLqn5alN .product-item, .section-xbVUqFcHzLqn5alN .product-item  {
+ 
+.section-xbVUqFcHzLqn5alN .product-item, .section-xbVUqFcHzLqn5alN .product-item,
+.section-Iq21K5sUxqtWfcP5 .product-item, .section-Iq21K5sUxqtWfcP5 .product-item 
+{
   border:none;
   transition: box-shadow .3s;
   border-radius: 0 0 20px 20px;
@@ -19,11 +22,10 @@ width: 400px;
   border-color: #F2AB35;
 }
 
-.section-xbVUqFcHzLqn5alN .product-item:hover, .section-xbVUqFcHzLqn5alN .product-item:hover  {
-  box-shadow: 0 0 11px rgba(33,33,33,.2); 
- 
-  
-  
+.section-xbVUqFcHzLqn5alN .product-item:hover, .section-xbVUqFcHzLqn5alN .product-item:hover,
+.section-Iq21K5sUxqtWfcP5 .product-item:hover, .section-Iq21K5sUxqtWfcP5 .product-item:hover 
+{
+  box-shadow: 0 0 11px rgba(33,33,33,.2);   
 }
 
 
@@ -106,3 +108,54 @@ display: flex;
   .yc ,.yc-search{
     color:white;
   }
+
+  .load-more {
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: end; */
+}
+
+[dir] .load-more .button {
+  padding: 8px 34px 9px;
+  background: none;
+  color: #F2AB35;
+  border-color: #F2AB35;
+}
+
+[dir] .load-more .button:hover {
+  background: #F2AB35;
+  color: #FFFFFF;
+}
+
+.section-xbVUqFcHzLqn5alN .product-item .product-price .after,
+.section-Iq21K5sUxqtWfcP5 .product-item .product-price .after {
+  color: #F2AB35;
+}
+
+.section-xbVUqFcHzLqn5alN .product-item .product-price .before,
+.section-Iq21K5sUxqtWfcP5 .product-item .product-price .before {
+  color: red;
+}
+
+.section-xbVUqFcHzLqn5alN .product-item .product-actions .button,
+.section-Iq21K5sUxqtWfcP5 .product-item .product-actions .button  {
+  color: #FFFFFFFF;
+  background-color: #121713;
+  border-color: #fff;
+}
+
+.section-xbVUqFcHzLqn5alN .product-item .product-actions .button:hover,
+.section-Iq21K5sUxqtWfcP5 .product-item .product-actions .button:hover
+{
+  color: #ffffff;
+  background-color: #F2AB35;
+  border-color: #F2AB35;
+}
+
+.footer-item >h3{
+  color:#F2AB35
+}
+
+[dir] .side-navigation {
+  background-color: #121713;
+}
