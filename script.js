@@ -26,6 +26,49 @@ border-color: #000;
 .section-C2ch89CUfX67kHwT .product-item  .product-details,
 .section-addAwG1ieIFGc7oF .product-item  .product-details
 
+[dir] input[type=email], [dir] input[type=number], [dir] input[type=password], [dir] input[type=search], [dir] input[type=tel], [dir] input[type=text], [dir] input[type=url], [dir] textarea {
+  color:white;
+}
+[dir] .product-item {
+  border:none;
+  transition: box-shadow .3s;
+  border-radius: 0 0 20px 20px;
+}
+[dir] .product-item:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);   
+
+}
+[dir] .product-details{
+  border-color: #F2AB35 !important;
+}
+ .product-item .product-actions .button {
+   background-color:#F2AB35  !important;
+   border-color:#F2AB35 !important;
+ }
+ .product-item .product-price .after{
+   color :#F2AB35  !important;
+ }
+.product-item .product-price .before{
+   color :red  !important;
+ }
+ .heading-primary{
+   color: #000 !important;
+  text-align: right !important;
+ }
+ 
+ 
+  @media (max-width: 768px) {
+    [dir] .product-item{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);   
+
+    }
+    .info-p {
+      font-size: 9px;
+    }
+  }
+
+
+
 {
 border-color: #F2AB35;
 }
