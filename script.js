@@ -312,6 +312,23 @@ window.addEventListener("DOMContentLoaded", function () {
   const navElement = document.querySelector('nav');
   const originalLi = navElement.querySelector('li a[href="/collections"]');
   const newLi = document.createElement('li');
+  const sac_man="https://3alwanshopp.ma/collections/produits-pour-hommes";
+  const sport_man="https://3alwanshopp.ma/collections/articles-de-sport";
+  const hat_man="https://3alwanshopp.ma/collections/les-casquitte";
+  
+  const sac_fm="https://3alwanshopp.ma/collections/produits-pour-femmes";
+  const sport_fm="https://3alwanshopp.ma/collections/articles-de-sport";
+  const bioty_fm="https://3alwanshopp.ma/collections/sante-et-beaute";
+  const hat_fm="https://3alwanshopp.ma/collections/les-casquitte";
+
+  const baby="https://3alwanshopp.ma/collections/produits-pour-enfants";
+
+  const home = "https://3alwanshopp.ma/collections/articles-menagers";
+
+  const electro = "https://3alwanshopp.ma/collections/electronique";
+
+
+
   const newLocal = (newLi.innerHTML = `
   <style>
   
@@ -387,7 +404,7 @@ li a {text-decoration : none; color : #2d2f31;}
           <li class="flex">
           <img src="https://github.com/Kidaziro/3lawine/blob/main/rucksack.png?raw=true" class="img-00"/>
           <div style="width: 147px;">
-          <a href="#">حقيبة الظهر الرجالية</a>
+          <a href="${sac_man}">حقيبة الظهر الرجالية</a>
           </div>
 
           </li>
@@ -395,7 +412,7 @@ li a {text-decoration : none; color : #2d2f31;}
           <li class="flex">
           <img src="https://github.com/Kidaziro/3lawine/blob/main/muscle.png?raw=true" class="img-00"/>
           <div style="width: 148px;">
-            <a href="#">الرياضة واللياقة البدنية</a>
+            <a href="${sport_man}">الرياضة واللياقة البدنية</a>
           </div>
           </li>
 
@@ -403,7 +420,7 @@ li a {text-decoration : none; color : #2d2f31;}
           <img src="https://github.com/Kidaziro/3lawine/blob/main/hat.png?raw=true" class="img-00"/>
 
           <div style="width: 147px;">
-          <a href="#">قبعات رجالية</a>
+          <a href="${hat_man}">قبعات رجالية</a>
           <div>
           
           </li>
@@ -426,14 +443,14 @@ li a {text-decoration : none; color : #2d2f31;}
         <img src="https://github.com/Kidaziro/3lawine/blob/main/rucksack.png?raw=true" class="img-00"/>
 
         <div style="width: 145px;">
-          <a href="#">حقيبة الظهر  النسائية</a>
+          <a href="${sac_fm}">حقيبة الظهر  النسائية</a>
         </div>
         </li>
 
         <li class="flex">
         <img src="https://github.com/Kidaziro/3lawine/blob/main/cosmetic.png?raw=true" class="img-00"/>
         <div style="width: 145px;">
-        <a href="#">الصحة و الجمال</a>
+        <a href="${bioty_fm}">الصحة و الجمال</a>
         </div>
         </li>
 
@@ -442,7 +459,7 @@ li a {text-decoration : none; color : #2d2f31;}
         <li class="flex">
         <img src="https://github.com/Kidaziro/3lawine/blob/main/muscle.png?raw=true" class="img-00"/>
         <div style="width: 148px;">
-          <a href="#">الرياضة واللياقة البدنية</a>
+          <a href="${sport_fm}">الرياضة واللياقة البدنية</a>
         </div>
         </li>
 
@@ -451,7 +468,7 @@ li a {text-decoration : none; color : #2d2f31;}
         <img src="https://github.com/Kidaziro/3lawine/blob/main/hat-fm.png?raw=true" class="img-00"/>
 
         <div style="width: 148px;">
-        <a href="#">قبعات نسائية </a>
+        <a href="${hat_fm}">قبعات نسائية </a>
         </div>
         </li>
       </ul>
@@ -471,7 +488,7 @@ li a {text-decoration : none; color : #2d2f31;}
       <ul class="slide-04 cstm_ul" style="color:white">
         
         <li>
-            <a href="#">منتجات العناية بالأطفال</a>
+            <a href="${baby}">منتجات العناية بالأطفال</a>
             
         </li>
 
@@ -493,7 +510,7 @@ li a {text-decoration : none; color : #2d2f31;}
       <ul class="slide-05 cstm_ul" style="color:white">
         <li>
         
-        <a href="#">معدات و مستلزمات المنزل</a>
+        <a href="${home}">معدات و مستلزمات المنزل</a>
         
 
         </li>
@@ -517,7 +534,7 @@ li a {text-decoration : none; color : #2d2f31;}
       <ul class="slide-06 cstm_ul" style="color:white">
         <li>
         
-        <a href="#">الإلكترونيات و اكسسوارات</a>
+        <a href="${electro}">الإلكترونيات و اكسسوارات</a>
         
 
         </li>
