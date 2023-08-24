@@ -360,7 +360,7 @@ li a {text-decoration : none; color : #2d2f31;}
   font-size: 12px;
 }
 
-#touch:checked + .slide{height: 1000px;} 
+#touch:checked + .slide{height: 756px;} 
 #touch-02:checked + .slide-02 {height: 150px;} 
 #touch-03:checked + .slide-03 {height: 200px;}
 #touch-04:checked + .slide-04 {height: 49px;} 
@@ -376,7 +376,7 @@ li a {text-decoration : none; color : #2d2f31;}
   <ul class="slide" style="color:white">
     <li>
         <label for="touch-02" class="flex">
-        <img src="male.png" class="img-00"/>
+        <img src="https://github.com/Kidaziro/3lawine/blob/main/male.png?raw=true" class="img-00"/>
         <div style="width: 185px;">
         <span class="span-02">قسم الرجال</span>
         </div>
@@ -385,7 +385,7 @@ li a {text-decoration : none; color : #2d2f31;}
 
         <ul class="slide-02 cstm_ul" style="color:white">
           <li class="flex">
-          <img src="rucksack.png" class="img-00"/>
+          <img src="https://github.com/Kidaziro/3lawine/blob/main/rucksack.png?raw=true" class="img-00"/>
           <div style="width: 147px;">
           <a href="#">حقيبة الظهر الرجالية</a>
           </div>
@@ -393,14 +393,14 @@ li a {text-decoration : none; color : #2d2f31;}
           </li>
 
           <li class="flex">
-          <img src="muscle.png" class="img-00"/>
+          <img src="https://github.com/Kidaziro/3lawine/blob/main/muscle.png?raw=true" class="img-00"/>
           <div style="width: 148px;">
             <a href="#">الرياضة واللياقة البدنية</a>
           </div>
           </li>
 
           <li class="flex">
-          <img src="hat.png" class="img-00"/>
+          <img src="https://github.com/Kidaziro/3lawine/blob/main/hat.png?raw=true" class="img-00"/>
 
           <div style="width: 147px;">
           <a href="#">قبعات رجالية</a>
@@ -413,7 +413,7 @@ li a {text-decoration : none; color : #2d2f31;}
 
     <li>
       <label for="touch-03" style="display: flex;justify-content: space-between;align-items: center;">
-      <img src="female.png" class="img-00"/>
+      <img src="https://github.com/Kidaziro/3lawine/blob/main/female.png?raw=true" class="img-00"/>
       <div style="width:185px">
       <span class="span-03">قسم النساء</span>
       </div>
@@ -423,7 +423,7 @@ li a {text-decoration : none; color : #2d2f31;}
 
       <ul class="slide-03 cstm_ul" style="color:white">
         <li class="flex">
-        <img src="rucksack.png" class="img-00"/>
+        <img src="https://github.com/Kidaziro/3lawine/blob/main/rucksack.png?raw=true" class="img-00"/>
 
         <div style="width: 145px;">
           <a href="#">حقيبة الظهر  النسائية</a>
@@ -431,7 +431,7 @@ li a {text-decoration : none; color : #2d2f31;}
         </li>
 
         <li class="flex">
-        <img src="cosmetic.png" class="img-00"/>
+        <img src="https://github.com/Kidaziro/3lawine/blob/main/cosmetic.png?raw=true" class="img-00"/>
         <div style="width: 145px;">
         <a href="#">الصحة و الجمال</a>
         </div>
@@ -440,7 +440,7 @@ li a {text-decoration : none; color : #2d2f31;}
         </li>
 
         <li class="flex">
-        <img src="muscle.png" class="img-00"/>
+        <img src="https://github.com/Kidaziro/3lawine/blob/main/muscle.png?raw=true" class="img-00"/>
         <div style="width: 148px;">
           <a href="#">الرياضة واللياقة البدنية</a>
         </div>
@@ -448,7 +448,7 @@ li a {text-decoration : none; color : #2d2f31;}
 
 
         <li class="flex">
-        <img src="hat-fm.png" class="img-00"/>
+        <img src="https://github.com/Kidaziro/3lawine/blob/main/hat-fm.png?raw=true" class="img-00"/>
 
         <div style="width: 148px;">
         <a href="#">قبعات نسائية </a>
@@ -460,7 +460,7 @@ li a {text-decoration : none; color : #2d2f31;}
     <li>
     <label for="touch-04" class="flex">
 
-    <img src="baby.png" class="img-00"/>
+    <img src="https://github.com/Kidaziro/3lawine/blob/main/baby.png?raw=true" class="img-00"/>
     <div style="width: 185px;">
     <span class="span-04">قسم الأطفال</span>
     </div>
@@ -481,7 +481,7 @@ li a {text-decoration : none; color : #2d2f31;}
     
     <li>
     <label for="touch-05" class="flex">
-    <img src="home.png" class="img-00"/>
+    <img src="https://github.com/Kidaziro/3lawine/blob/main/home.png?raw=true" class="img-00"/>
     
     <div style="width: 185px;">
     <span class="span-05">قسم المستلزمات المنزلية</span>
@@ -505,7 +505,7 @@ li a {text-decoration : none; color : #2d2f31;}
 
     <li>
     <label for="touch-06" class="flex">
-    <img src="electro.png" class="img-00"/>
+    <img src="https://github.com/Kidaziro/3lawine/blob/main/electro.png?raw=true" class="img-00"/>
     
     <div style="width: 185px;">
     <span class="span-06">قسم الإلكترونيات</span>
