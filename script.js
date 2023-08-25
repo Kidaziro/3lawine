@@ -352,7 +352,7 @@ li a {text-decoration : none; color : #2d2f31;}
   content: "▾";
 }
 
-.slide,.slide-02,.slide-03,.slide-04,.slide-05,.slide-06 {
+.slide-01,.slide-02,.slide-03,.slide-04,.slide-05,.slide-06 {
   clear:both;
   width:100%;
   height:0px;
@@ -377,7 +377,7 @@ li a {text-decoration : none; color : #2d2f31;}
   font-size: 12px;
 }
 
-#touch:checked + .slide{height: 756px;} 
+#touch:checked + .slide-01{height: 756px;} 
 #touch-02:checked + .slide-02 {height: 150px;} 
 #touch-03:checked + .slide-03 {height: 200px;}
 #touch-04:checked + .slide-04 {height: 49px;} 
@@ -390,7 +390,7 @@ li a {text-decoration : none; color : #2d2f31;}
   <label for="touch"><span class="span">التصنيفات</span></label>               
   <input type="checkbox" id="touch"> 
 
-  <ul class="slide" style="color:white">
+  <ul class="slide-01" style="color:white">
     <li>
         <label for="touch-02" class="flex">
         <img src="https://github.com/Kidaziro/3lawine/blob/main/male.png?raw=true" class="img-00"/>
